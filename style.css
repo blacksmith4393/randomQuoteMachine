@@ -1,0 +1,91 @@
+body {
+  background-color: #2196F3;
+  font-family: Verdana;
+}
+
+h1, p {
+  font-family: Verdana;
+  color: white;
+}
+
+.quote-box {
+  min-width: 250px;
+  background-color: white;
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,.25);
+  border-radius: 2px;
+  width: 33%;
+  margin: 20px auto;
+  padding: 10px;
+  height: auto;
+  display: flex;  
+  flex-flow: row wrap;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#newQuote {
+  background: #2196F3;
+  color: #fff;
+  display: inline-block;
+  float: right;
+  clear: both;
+  position: relative;
+  margin: 0 auto 15px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#newQuote:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#tweet {
+  background: #2196F3;
+  color: #fff;
+  display: inline-block;
+  float: right;
+  clear: both;
+  position: relative;
+  margin: 0 auto 15px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#tweet:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.quote {
+  text-align: center;
+  position: relative;
+  margin: 10px;
+  float: left;
+  width: 100%;
+  font-family: Verdana;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.author {
+  position: relative;
+  text-align: right;
+  margin: 5px 25% 20px;
+  float: right;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 15px;
+}
+
+footer a {
+  background: #fff;
+  color: #2196F3;
+  border-radius: 2px;
+  padding: 2px 5px;
+  text-decoration:none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+footer a:hover {
+  color: #2196F3;
+  text-decoration:none;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
